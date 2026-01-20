@@ -1,0 +1,301 @@
+.reveal {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+  font-weight: 700;
+  text-transform: none;
+}
+
+/* Section label */
+.section-label {
+  color: #4fc3f7 !important;
+  font-size: 0.8em !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 0.5em !important;
+}
+
+/* Title slide */
+.title-slide .company-logo {
+  font-size: 3em;
+  color: #4fc3f7;
+  margin-bottom: 0.3em;
+}
+
+.title-slide h1 {
+  font-size: 3em;
+  margin-bottom: 0.2em;
+}
+
+.tagline {
+  font-size: 1.2em;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 1.5em;
+}
+
+.round-badge {
+  display: inline-block;
+  padding: 10px 25px;
+  border: 2px solid #4fc3f7;
+  border-radius: 25px;
+  color: #4fc3f7;
+  font-size: 0.9em;
+}
+
+/* Problem slide */
+.statement {
+  font-size: 1.4em;
+  max-width: 700px;
+  margin: 0 auto 1.5em;
+  line-height: 1.3;
+}
+
+.pain-points {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 1.5em;
+}
+
+.pain-point {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.pain-icon {
+  font-size: 2em;
+}
+
+/* Solution slide */
+.solution-headline {
+  font-size: 1.3em;
+  max-width: 700px;
+  margin: 0 auto 1.5em;
+  font-weight: 500;
+}
+
+.solution-features {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.solution-feature {
+  text-align: center;
+  max-width: 200px;
+}
+
+.feature-icon {
+  font-size: 2.5em;
+  margin-bottom: 0.3em;
+}
+
+.solution-feature h4 {
+  margin: 0.3em 0;
+  font-size: 1em;
+}
+
+.solution-feature p {
+  font-size: 0.75em;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}
+
+/* Market slide */
+.market-size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: -30px;
+  margin: 1.5em 0;
+}
+
+.market-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 3px solid rgba(255, 255, 255, 0.2);
+}
+
+.market-circle.tam {
+  width: 220px;
+  height: 220px;
+  background: rgba(79, 195, 247, 0.1);
+}
+
+.market-circle.sam {
+  width: 160px;
+  height: 160px;
+  background: rgba(79, 195, 247, 0.2);
+  margin-left: -40px;
+}
+
+.market-circle.som {
+  width: 100px;
+  height: 100px;
+  background: rgba(79, 195, 247, 0.3);
+  margin-left: -30px;
+  border-color: #4fc3f7;
+}
+
+.market-value {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.market-label {
+  font-size: 0.7em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.market-note {
+  font-size: 0.85em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Traction slide */
+.traction-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto 2em;
+}
+
+.traction-metric {
+  text-align: center;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+}
+
+.traction-metric .metric-value {
+  display: block;
+  font-size: 2.2em;
+  font-weight: 700;
+  color: #4fc3f7;
+}
+
+.traction-metric .metric-label {
+  display: block;
+  font-size: 0.85em;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 5px 0;
+}
+
+.traction-metric .metric-growth {
+  font-size: 0.75em;
+  color: #4caf50;
+}
+
+.logos-strip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.85em;
+}
+
+/* Team slide */
+.team-grid {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 1.5em;
+}
+
+.team-member {
+  text-align: center;
+}
+
+.member-photo {
+  width: 100px;
+  height: 100px;
+  background: rgba(79, 195, 247, 0.2);
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+}
+
+.member-name {
+  margin: 0 0 5px;
+  font-size: 1em;
+}
+
+.member-role {
+  margin: 0;
+  color: #4fc3f7;
+  font-size: 0.85em;
+}
+
+.member-bg {
+  margin: 5px 0 0;
+  font-size: 0.7em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.team-note {
+  font-size: 0.85em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Ask slide */
+.ask-amount {
+  font-size: 3em;
+  font-weight: 800;
+  color: #4fc3f7;
+  margin: 0.5em 0;
+}
+
+.use-of-funds {
+  max-width: 500px;
+  margin: 0 auto 2em;
+  text-align: left;
+}
+
+.use-of-funds h4 {
+  margin: 0 0 1em;
+  font-size: 0.9em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.fund-item {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.fund-bar {
+  display: block;
+  height: 30px;
+  background: rgba(79, 195, 247, 0.3);
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+.fund-label {
+  font-size: 0.8em;
+}
+
+.contact {
+  margin-top: 2em;
+}
+
+.contact p {
+  margin: 0.3em 0;
+}
+
+.email {
+  color: #4fc3f7;
+  font-size: 1.1em;
+}
