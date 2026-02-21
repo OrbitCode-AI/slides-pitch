@@ -9,11 +9,11 @@
 
 /* Section label */
 .section-label {
-  color: #4fc3f7 !important;
-  font-size: 0.8em !important;
+  color: #4fc3f7;
+  font-size: 0.8em;
   text-transform: uppercase;
   letter-spacing: 3px;
-  margin-bottom: 0.5em !important;
+  margin-bottom: 0.5em;
 }
 
 /* Title slide */
