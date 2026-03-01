@@ -1,7 +1,7 @@
-import { Slide } from '../Slide';
+import { Slide } from '../Slide'
 
 interface SolutionSlideProps {
-  isNested?: boolean;
+  isNested?: boolean
 }
 
 function SolutionSlide({ isNested }: SolutionSlideProps) {
@@ -9,7 +9,9 @@ function SolutionSlide({ isNested }: SolutionSlideProps) {
     <Slide isNested={isNested}>
       <section data-background-color="#0f3460">
         <h2 className="section-label">The Solution</h2>
-        <h3 className="solution-headline">AI-powered collaboration hub that unifies your team's knowledge</h3>
+        <h3 className="solution-headline">
+          AI-powered collaboration hub that unifies your team's knowledge
+        </h3>
         <div className="solution-features">
           <div className="solution-feature fragment">
             <div className="feature-icon">🔗</div>
@@ -29,11 +31,11 @@ function SolutionSlide({ isNested }: SolutionSlideProps) {
         </div>
       </section>
     </Slide>
-  );
+  )
 }
 
 export default function SolutionSlidePreview() {
-  return <SolutionSlide />;
+  return <SolutionSlide />
 }
 
-export { SolutionSlide };
+export { SolutionSlide }

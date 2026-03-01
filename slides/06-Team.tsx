@@ -1,7 +1,7 @@
-import { Slide } from '../Slide';
+import { Slide } from '../Slide'
 
 interface TeamSlideProps {
-  isNested?: boolean;
+  isNested?: boolean
 }
 
 function TeamSlide({ isNested }: TeamSlideProps) {
@@ -9,7 +9,7 @@ function TeamSlide({ isNested }: TeamSlideProps) {
     { name: 'Jane Smith', role: 'CEO', bg: 'Ex-Google, Stanford MBA' },
     { name: 'John Doe', role: 'CTO', bg: 'Ex-Meta, 15yr engineering' },
     { name: 'Sarah Lee', role: 'VP Sales', bg: 'Ex-Salesforce, $50M quota' },
-  ];
+  ]
 
   return (
     <Slide isNested={isNested}>
@@ -28,11 +28,11 @@ function TeamSlide({ isNested }: TeamSlideProps) {
         <p className="team-note fragment">35 team members across SF, NYC, London</p>
       </section>
     </Slide>
-  );
+  )
 }
 
 export default function TeamSlidePreview() {
-  return <TeamSlide />;
+  return <TeamSlide />
 }
 
-export { TeamSlide };
+export { TeamSlide }

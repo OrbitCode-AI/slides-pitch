@@ -1,7 +1,7 @@
-import { Slide } from '../Slide';
+import { Slide } from '../Slide'
 
 interface MarketSlideProps {
-  isNested?: boolean;
+  isNested?: boolean
 }
 
 function MarketSlide({ isNested }: MarketSlideProps) {
@@ -26,11 +26,11 @@ function MarketSlide({ isNested }: MarketSlideProps) {
         <p className="market-note fragment">Enterprise collaboration market growing 15% YoY</p>
       </section>
     </Slide>
-  );
+  )
 }
 
 export default function MarketSlidePreview() {
-  return <MarketSlide />;
+  return <MarketSlide />
 }
 
-export { MarketSlide };
+export { MarketSlide }

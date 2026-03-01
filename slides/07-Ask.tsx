@@ -1,21 +1,23 @@
-import { Slide } from '../Slide';
+import { Slide } from '../Slide'
 
 interface AskSlideProps {
-  isNested?: boolean;
-  amount?: string;
-  use?: string[];
+  isNested?: boolean
+  amount?: string
+  use?: string[]
 }
 
 const defaultUse = [
   'Engineering expansion (40%)',
   'Go-to-market (35%)',
   'Product development (25%)',
-];
+]
 
 function AskSlide({ isNested, amount = '$15M Series A', use = defaultUse }: AskSlideProps) {
   return (
     <Slide isNested={isNested}>
-      <section className="ask-slide" data-background-gradient="linear-gradient(135deg, #16213e 0%, #0f3460 100%)">
+      <section
+        className="ask-slide"
+        data-background-gradient="linear-gradient(135deg, #16213e 0%, #0f3460 100%)">
         <h2 className="section-label">The Ask</h2>
         <div className="ask-amount">{amount}</div>
         <div className="use-of-funds">
@@ -33,11 +35,11 @@ function AskSlide({ isNested, amount = '$15M Series A', use = defaultUse }: AskS
         </div>
       </section>
     </Slide>
-  );
+  )
 }
 
 export default function AskSlidePreview() {
-  return <AskSlide />;
+  return <AskSlide />
 }
 
-export { AskSlide };
+export { AskSlide }

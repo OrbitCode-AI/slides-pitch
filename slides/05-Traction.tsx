@@ -1,7 +1,7 @@
-import { Slide } from '../Slide';
+import { Slide } from '../Slide'
 
 interface TractionSlideProps {
-  isNested?: boolean;
+  isNested?: boolean
 }
 
 function TractionSlide({ isNested }: TractionSlideProps) {
@@ -10,7 +10,7 @@ function TractionSlide({ isNested }: TractionSlideProps) {
     { value: '500+', label: 'Customers', growth: '+120% YoY' },
     { value: '94%', label: 'Retention', growth: 'Industry avg: 85%' },
     { value: '4.8★', label: 'G2 Rating', growth: 'Top 10 in category' },
-  ];
+  ]
 
   return (
     <Slide isNested={isNested}>
@@ -33,11 +33,11 @@ function TractionSlide({ isNested }: TractionSlideProps) {
         </div>
       </section>
     </Slide>
-  );
+  )
 }
 
 export default function TractionSlidePreview() {
-  return <TractionSlide />;
+  return <TractionSlide />
 }
 
-export { TractionSlide };
+export { TractionSlide }
